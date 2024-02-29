@@ -3,11 +3,10 @@ package prettyslog
 import (
 	"context"
 	"encoding/json"
+	"github.com/fatih/color"
 	"io"
 	stdLog "log"
 	"log/slog"
-
-	"github.com/fatih/color"
 )
 
 type PrettyHandlerOptions struct {
